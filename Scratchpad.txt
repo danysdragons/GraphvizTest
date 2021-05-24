@@ -1,0 +1,5 @@
+echo "digraph { 1 [color=blue] ;1 -> 2; 2 -> 3; 3 -> 1 }" | dot -T png -o test8.png
+
+/usr/bin/dot
+
+echo "digraph { 1 [color=blue;style=filled] ;1 -> 2; 2 -> 3; 3 -> 1 }" | /usr/bin/dot -T png -o test8.png

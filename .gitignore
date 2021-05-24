@@ -1,0 +1,6 @@
+*.png
+*.dll
+*.pdb
+obj/*
+bin/*
+obj

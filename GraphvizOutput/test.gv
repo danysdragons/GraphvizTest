@@ -1,0 +1,14 @@
+digraph 
+{ 
+1 [color=blue, style=filled, shape=circle] ; 
+2 [color=green] ; 
+3 [color=red] ;
+4 [color=hotpink, style=filled, shape=diamond] ;
+5 [color=pink]; 
+1 -> 2 [style=dashed]; 
+2 -> 3 [color=green, style=dotted]; 
+3 -> 1  [color=red, style=dashed];
+3 -> 1 [color=hotpink];
+3 -> 4 [color=hotpink] ;
+4 -> 5 [color=pink, style=dahsed] 
+}
